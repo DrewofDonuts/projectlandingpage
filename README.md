@@ -1,0 +1,1 @@
+This is a project landing page for The Odin Project's Foundations Course. 
