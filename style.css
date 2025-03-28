@@ -1,0 +1,150 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, Roboto, sans-serif;
+  height: 100%;
+  min-height: 100%;
+}
+.top-panel, .footer {
+  background-color: #1f2937;
+  color: #fefefe;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+a {
+  color: #fefefe;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.content-top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 50px 100px 20px;
+}
+.top-left-panel {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+img {
+  max-width: 200px;
+}
+
+.hero {
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0;
+}
+.hero-details {
+  font-size: 16px;
+}
+
+
+
+.top-middle-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center; /* center children horizontally */
+  gap: 50px;
+  max-width: 200px; /* control how wide the container is */
+  margin: 50px auto; /* center the container itself */
+}
+
+.card,
+.cards img {
+  width: 75px;
+  height: 75px;
+  box-sizing: border-box;
+  border: lightblue 1pt solid;
+  border-radius: 10%;
+}
+.card {
+  font-size: 10px;
+}
+
+.bottom-middle-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+
+  margin: 0 auto;
+  height: 300px;
+}
+.bottom-middle-panel p {
+  width: 500px;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.bottom-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+  height: 300px;
+  width: 100%;
+}
+
+.bottom-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 550px;
+  height: 100px;
+  background-color: #03c2fc;
+  padding: 25px;
+  color: #fefefe;
+  border: solid 30px #03c2fc;
+  border-radius: 15pt;
+}
+
+
+.bottom-content h2{
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  width: 70px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #1f2937;
+  flex: 1;
+}
