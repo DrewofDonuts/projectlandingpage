@@ -101,6 +101,7 @@ img {
   /* margin-bottom: 100px; */
   height: 300px;
   width: 100%;
+  padding: 20px;
 }
 .bottom-middle-panel p {
   width: 500px;
